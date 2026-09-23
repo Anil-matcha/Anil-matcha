@@ -1,43 +1,59 @@
-# Seedance 3 API — Python SDK Project and Developer Guide
+# Anil Matcha
 
-[![Powered by MuAPI](https://img.shields.io/badge/Powered%20by-MuAPI-6366f1?style=flat-square)](https://muapi.ai)
-[![GitHub stars](https://img.shields.io/github/stars/Anil-matcha/Seedance-3-API.svg)](https://github.com/Anil-matcha/Seedance-3-API/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-Seedance 3 API project for video generation through MuAPI, following the simple workflow of [Seedance-2-API](https://github.com/Anil-matcha/Seedance-2-API).
+Building open-source generative AI tooling and apps, most of it powered by [muapi.ai](https://muapi.ai) — one API for 250+ image, video, and audio models. Official muapi SDKs, CLI, and integrations live under the [SamurAIGPT](https://github.com/SamurAIGPT) org; this account has the flagship open-source apps, model-specific wrappers, and awesome-lists.
 
 ## Related Projects
 
-- [Seedance 3 API on MuAPI](https://muapi.ai/seedance-3) — MuAPI landing page and integration updates.
-- [MuAPI video generation guide](https://muapi.ai/docs/video-generation) — Shared asynchronous video-generation workflow.
-- [MuAPI API keys](https://muapi.ai/access-keys) — Create and manage API keys.
-- [Seedance-2-API](https://github.com/Anil-matcha/Seedance-2-API) — Python SDK, MCP server, and runnable examples for Seedance 2.x.
-- [awesome-seedance-2.5-api-prompts](https://github.com/Anil-matcha/awesome-seedance-2.5-api-prompts) — Seedance 2.5 API guide and prompt examples.
-- [awesome-ai-video-models](https://github.com/Anil-matcha/awesome-ai-video-models) — Video model and API comparison hub.
-- [n8n-nodes-seedance2](https://github.com/Anil-matcha/n8n-nodes-seedance2) — Seedance generation nodes for n8n.
-- [seedance-2-mcp](https://github.com/Anil-matcha/seedance-2-mcp) — MCP tools for Seedance 2 generation.
+- [MuAPI model playground](https://muapi.ai/playground) — Try the image, video, and audio models used across this ecosystem.
+- [MuAPI API quick start](https://muapi.ai/docs/quick-start) — Connect the SDKs, apps, and integrations to one generative-media API.
 
-## 🚀 Seedance 3 API
+## Flagship projects
 
-The SDK and API guide are being prepared for the Seedance 3 integration. The planned developer surface follows the familiar Seedance generation workflow:
+| Repo | What it is |
+|---|---|
+| [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | Self-hosted, unrestricted AI image & video studio — 200+ models, no content filters, MIT licensed |
+| [awesome-generative-ai-apps](https://github.com/Anil-matcha/awesome-generative-ai-apps) | 50+ open-source generative AI apps you can clone, deploy, and monetize — one-click Vercel deploy |
+| [ai-creator-academy](https://github.com/Anil-matcha/ai-creator-academy) | Free curriculum for making money with generative AI image, video, and audio |
+| [Open-AI-Design-Agent](https://github.com/Anil-matcha/Open-AI-Design-Agent) | Autonomous creative agent for posters, social, brand kits, and video — alternative to Lovart/Runway Agent |
+| [Open-AI-UGC](https://github.com/Anil-matcha/Open-AI-UGC) | Generate AI UGC video ads with realistic AI actors (Veo 3.1, Seedance 2, Grok Video) |
+| [Open-AI-Micro-Drama-Generator](https://github.com/Anil-matcha/Open-AI-Micro-Drama-Generator) | Idea → complete short-form drama via a multi-agent pipeline (screenwriter → storyboard → frames → video) |
+| [Free-AI-Social-Media-Scheduler](https://github.com/Anil-matcha/Free-AI-Social-Media-Scheduler) | Self-hostable Postiz/Buffer/Hootsuite alternative with built-in AI content generation |
 
-- **Text-to-Video** — create video from a natural-language prompt
-- **Image-to-Video** — animate a still image with a prompt
-- **Reference-guided generation** — guide scenes with supported reference media
-- **Async generation** — submit a task, poll for completion, and retrieve the result
-- **Python SDK and MCP** — use generation from scripts and AI assistants
+## Model wrappers & API docs
 
-## 🛠 Installation
+Python wrappers and reference docs for accessing the latest models via muapi:
 
-```bash
-git clone https://github.com/Anil-matcha/Seedance-3-API.git
-cd Seedance-3-API
-```
+- [Flux-3-Dev-API](https://github.com/Anil-matcha/Flux-3-Dev-API)
+- [Seedance-2-API](https://github.com/Anil-matcha/Seedance-2-API)
+- [Veo-4-API](https://github.com/Anil-matcha/Veo-4-API)
+- [Seedream-5-Pro-API](https://github.com/Anil-matcha/Seedream-5-Pro-API)
+- [Awesome-Happy-Horse-1.0-API-and-Prompt](https://github.com/Anil-matcha/Awesome-Happy-Horse-1.0-API-and-Prompt)
+- [hailuo-3.0-api](https://github.com/Anil-matcha/hailuo-3.0-api)
 
-## 🔑 API access
+## Awesome-lists & prompt guides
 
-The SDK examples and API reference will be added alongside the Seedance 3 endpoint integration. For Seedance 2.0 and Seedance 2.5, see the working [Seedance-2-API](https://github.com/Anil-matcha/Seedance-2-API) project.
+- [awesome-ai-video-models](https://github.com/Anil-matcha/awesome-ai-video-models)
+- [awesome-ai-image-models](https://github.com/Anil-matcha/awesome-ai-image-models)
+- [awesome-flux-3-api-prompts](https://github.com/Anil-matcha/awesome-flux-3-api-prompts)
+- [awesome-seedance-2.5-api-prompts](https://github.com/Anil-matcha/awesome-seedance-2.5-api-prompts)
+- [Awesome-GPT-Image-2-API-Prompts](https://github.com/Anil-matcha/Awesome-GPT-Image-2-API-Prompts)
+- [Awesome-Gemini-Omni-API-Prompts](https://github.com/Anil-matcha/Awesome-Gemini-Omni-API-Prompts)
+- [Awesome-GPT-5.6-API-and-Prompts](https://github.com/Anil-matcha/Awesome-GPT-5.6-API-and-Prompts)
+- [awesome-claude-fable-5](https://github.com/Anil-matcha/awesome-claude-fable-5)
 
-## License
+## Video & content generation
 
-MIT. See [LICENSE](LICENSE).
+- [vox-ai-motion-graphics-generator](https://github.com/Anil-matcha/vox-ai-motion-graphics-generator) — Vox-style paper-collage explainer videos, fully automated
+- [AI-Voice-Agent](https://github.com/Anil-matcha/AI-Voice-Agent) — self-hosted AI voice agent
+- [ai-clipping-comfyui](https://github.com/Anil-matcha/ai-clipping-comfyui) — Opus Clip alternative for ComfyUI
+- [AI-B-roll](https://github.com/Anil-matcha/AI-B-roll) — generate b-roll for any video
+
+## Other apps
+
+- [open-character-ai](https://github.com/Anil-matcha/open-character-ai) — Character.AI alternative
+- [Open-Poe-AI](https://github.com/Anil-matcha/Open-Poe-AI) — Poe AI alternative, bring your own keys
+- [open-larryloop](https://github.com/Anil-matcha/open-larryloop) — auto-generate viral carousel slides from any website
+
+---
+
+More muapi-powered SDKs, ComfyUI nodes, and SaaS templates live at [github.com/SamurAIGPT](https://github.com/SamurAIGPT). All of it points back to **[muapi.ai](https://muapi.ai)** for the actual model calls.
