@@ -1,10 +1,10 @@
-# Seedance 3 API — Python SDK for ByteDance's AI Video Generator
+# Seedance 3 API — Python SDK Project and Developer Guide
 
 [![Powered by MuAPI](https://img.shields.io/badge/Powered%20by-MuAPI-6366f1?style=flat-square)](https://muapi.ai)
 [![GitHub stars](https://img.shields.io/github/stars/Anil-matcha/Seedance-3-API.svg)](https://github.com/Anil-matcha/Seedance-3-API/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Python SDK and developer guide for Seedance 3 video generation, following the simple workflow of [Seedance-2-API](https://github.com/Anil-matcha/Seedance-2-API).
+Seedance 3 API project for video generation through MuAPI, following the simple workflow of [Seedance-2-API](https://github.com/Anil-matcha/Seedance-2-API).
 
 ## Related Projects
 
@@ -19,7 +19,7 @@ Python SDK and developer guide for Seedance 3 video generation, following the si
 
 ## 🚀 Seedance 3 API
 
-This project is organized for the familiar Seedance generation workflow:
+The SDK and API guide are being prepared for the Seedance 3 integration. The planned developer surface follows the familiar Seedance generation workflow:
 
 - **Text-to-Video** — create video from a natural-language prompt
 - **Image-to-Video** — animate a still image with a prompt
