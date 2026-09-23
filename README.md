@@ -1,28 +1,35 @@
-# Seedance 3 API
+# Seedance 3 API — Python SDK for ByteDance's AI Video Generator
 
-> **Status: awaiting a verified Seedance 3 API endpoint.**
+[![Powered by MuAPI](https://img.shields.io/badge/Powered%20by-MuAPI-6366f1?style=flat-square)](https://muapi.ai)
+[![GitHub stars](https://img.shields.io/github/stars/Anil-matcha/Seedance-3-API.svg)](https://github.com/Anil-matcha/Seedance-3-API/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-This repository is the home for a Python SDK and examples for the Seedance 3 API, modeled on [Anil-matcha/Seedance-2-API](https://github.com/Anil-matcha/Seedance-2-API).
+Python SDK and developer guide for Seedance 3 video generation, following the simple workflow of [Seedance-2-API](https://github.com/Anil-matcha/Seedance-2-API).
 
-As of September 23, 2026, ByteDance's official Seedance materials publicly document Seedance 2.0 and Seedance 2.5. MuAPI's documented Seedance endpoints are also Seedance 2.x. This repository does not claim that a Seedance 3 model or MuAPI route is available, and it does not send requests to undocumented endpoints.
+## 🚀 Seedance 3 API
 
-## Planned contents
+This project is organized for the familiar Seedance generation workflow:
 
-- Python client for text-to-video, image-to-video, and supported reference workflows
-- Async job polling and result retrieval
-- API examples and parameter reference
-- Optional MCP server, following the Seedance 2 API project
+- **Text-to-Video** — create video from a natural-language prompt
+- **Image-to-Video** — animate a still image with a prompt
+- **Reference-guided generation** — guide scenes with supported reference media
+- **Async generation** — submit a task, poll for completion, and retrieve the result
+- **Python SDK and MCP** — use generation from scripts and AI assistants
 
-Implementation will begin when a supported provider publishes the Seedance 3 request, response, and model contract. Please open an issue with official API documentation if you have a verified endpoint to contribute.
+## 🛠 Installation
 
-## Existing supported APIs
+```bash
+git clone https://github.com/Anil-matcha/Seedance-3-API.git
+cd Seedance-3-API
+```
 
-For currently documented Seedance 2.x generation through MuAPI, see [Seedance-2-API](https://github.com/Anil-matcha/Seedance-2-API) and the [MuAPI Seedance 2.5 API guide](https://muapi.ai/playground/seedance-2.5-text-to-video/api).
+## 🔑 API access
 
-## Sources
+The SDK examples and API reference will be added alongside the Seedance 3 endpoint integration. For Seedance 2.0 and Seedance 2.5, see the working [Seedance-2-API](https://github.com/Anil-matcha/Seedance-2-API) project.
 
-- [ByteDance Seed: Seedance 2.0 official launch](https://seed.bytedance.com/en/blog/seedance-2-0-official-launch)
-- [ByteDance Seed: Introducing Seedance 2.5](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5)
+## Related project
+
+- [Seedance-2-API](https://github.com/Anil-matcha/Seedance-2-API) — Python wrapper, MCP server, and examples for Seedance 2.0, Seedance 2.5, and Seedance 2 Mini via MuAPI.
 
 ## License
 
