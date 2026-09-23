@@ -6,6 +6,17 @@
 
 Python SDK and developer guide for Seedance 3 video generation, following the simple workflow of [Seedance-2-API](https://github.com/Anil-matcha/Seedance-2-API).
 
+## Related Projects
+
+- [Seedance 3 API on MuAPI](https://muapi.ai/seedance-3) — MuAPI landing page and integration updates.
+- [MuAPI video generation guide](https://muapi.ai/docs/video-generation) — Shared asynchronous video-generation workflow.
+- [MuAPI API keys](https://muapi.ai/access-keys) — Create and manage API keys.
+- [Seedance-2-API](https://github.com/Anil-matcha/Seedance-2-API) — Python SDK, MCP server, and runnable examples for Seedance 2.x.
+- [awesome-seedance-2.5-api-prompts](https://github.com/Anil-matcha/awesome-seedance-2.5-api-prompts) — Seedance 2.5 API guide and prompt examples.
+- [awesome-ai-video-models](https://github.com/Anil-matcha/awesome-ai-video-models) — Video model and API comparison hub.
+- [n8n-nodes-seedance2](https://github.com/Anil-matcha/n8n-nodes-seedance2) — Seedance generation nodes for n8n.
+- [seedance-2-mcp](https://github.com/Anil-matcha/seedance-2-mcp) — MCP tools for Seedance 2 generation.
+
 ## 🚀 Seedance 3 API
 
 This project is organized for the familiar Seedance generation workflow:
@@ -26,10 +37,6 @@ cd Seedance-3-API
 ## 🔑 API access
 
 The SDK examples and API reference will be added alongside the Seedance 3 endpoint integration. For Seedance 2.0 and Seedance 2.5, see the working [Seedance-2-API](https://github.com/Anil-matcha/Seedance-2-API) project.
-
-## Related project
-
-- [Seedance-2-API](https://github.com/Anil-matcha/Seedance-2-API) — Python wrapper, MCP server, and examples for Seedance 2.0, Seedance 2.5, and Seedance 2 Mini via MuAPI.
 
 ## License
 
